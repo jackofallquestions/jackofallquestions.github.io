@@ -25,9 +25,9 @@
       function generateEmail() {
         var user = "contact";
         var domain = "jackofallquestions.com";
-        var element = document.getElementById("email");
+        var element = document.getElementById("contactEmail");
         element.innerHTML =
-          '<a href="mailto:' +
+          '<a class="contact-email" href="mailto:' +
           user +
           "@" +
           domain +
@@ -69,10 +69,10 @@
       margin-bottom: 2em;
     }
 
-    a {
-      color: #c794f7;
+    /* a {
+      color: #e3e3e3;;
       letter-spacing: 1.5px;
-    }
+    } */
 
     /**
     .iframe-container 
@@ -118,19 +118,30 @@
         class="elcome-bg"
         style="
           padding: 2em;
-          margin-bottom: -93px;
+          margin-bottom: -49px;
           /* margin-right: 1px; */
           margin-left: 112px;
         "
       >
         <img src="jack.png" alt="logo2" />
       </div>
+      <a href="" class="getstarted" style="letter-spacing: 1.5px;">Welcome to Jack Of All Questions.</a>
 
-      <a href="" class="getstarted">Jack? Coming soon.</a>
-      <!-- <a href="" class="getstarted">Coming soon</a> -->
       <br />
+
+           <div style="margin: 0.51em 0; display: flex; gap: 1em; justify-content: center;">
+        <a href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" rel="noopener">
+          <img src="ios.svg" alt="Download on the App Store" style="height: 60px; margin-top: 12px;" />
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=YOUR_APP_PACKAGE" target="_blank" rel="noopener">
+          <img src="google-play.png" alt="Get it on Google Play" style="height: 88px;" />
+        </a>
+      </div>
+      <!-- email contact link  -->
+      
       <footer>
         <br />
+        <div id="contactEmail" style="margin: 1em 0;"></div>
         &copy; <span id="year"></span> Light and Salt Software LLC.<br />
         All rights reserved.
       </footer>

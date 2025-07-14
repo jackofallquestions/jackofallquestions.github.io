@@ -1,16 +1,17 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background: #000;
     background: #953fee;
     background: #00b1ff;
     font-family: 'Netflix Sans', sans-serif;
     color: white;
 }
-.nav{
+
+.nav {
     position: fixed;
     top: 0;
     height: 100px;
@@ -22,25 +23,30 @@ body{
     transition: .6s ease-in-out;
 
 }
-.nav.active{
+
+.nav.active {
     background: #000;
     transition: .6s ease-in-out;
     height: 80px;
 
 }
-.nav .logo{
+
+.nav .logo {
     margin-left: 50px;
 
 }
-.nav .logo img{
+
+.nav .logo img {
     width: 150px;
 
 }
-.btn-signin{
+
+.btn-signin {
     margin-right: 50px;
 
 }
-.btn-signin a{
+
+.btn-signin a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
@@ -50,7 +56,8 @@ body{
     border-radius: 3px;
 
 }
-.welcome-bg{
+
+.welcome-bg {
     /* position: absolute; */
     top: 0;
     left: 0;
@@ -62,7 +69,8 @@ body{
     position: fixed;
     z-index: -1;
 }
-.welcome-bg::after{
+
+.welcome-bg::after {
     content: "";
     position: absolute;
     top: 0;
@@ -74,7 +82,8 @@ body{
     /* box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; */
 
 }
-.content-welcome{
+
+.content-welcome {
     position: relative;
     top: 0;
     left: 0;
@@ -82,32 +91,36 @@ body{
     align-items: center;
     justify-content: center;
     /* height: 55vh; */
-    flex-direction:column ;
+    flex-direction: column;
     width: 100%;
     /* margin-bottom: 8em; */
     /* margin-top: 2em;
      */
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
-.content-welcome h1{
+
+.content-welcome h1 {
     /* font-size: 70px; */
 
 }
-.content-welcome h3{
+
+.content-welcome h3 {
     font: 30px;
     /* font-weight400: ; */
     margin-top: 20px;
 }
-.p-uni{
+
+.p-uni {
     margin: 20px 0px;
     font-size: 20px;
     text-align: center;
 }
-.getstarted{
+
+.getstarted {
     text-decoration: none;
     color: white;
     color: #363636;
@@ -130,7 +143,8 @@ body{
     border: solid 3.1px #131313;
 
 }
-.content-welcome2{
+
+.content-welcome2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -139,7 +153,8 @@ body{
     justify-content: space-between;
 
 }
-.section{
+
+.section {
     display: flex;
     width: 100%;
     border-top: 7px solid #222222;
@@ -148,32 +163,37 @@ body{
     justify-content: center;
     /* height: 100%; */
 }
-.section .txt{
+
+.section .txt {
     display: flex;
     flex-direction: column;
     max-width: 550px;
     margin: 0px 50px;
 
 }
-.section .txt h1{
+
+.section .txt h1 {
     font-size: 50px;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 }
-.section .txt p{
+
+.section .txt p {
     font-size: 30px;
     line-height: 1.5;
 }
-.section img{
+
+.section img {
     margin: 0px 50px;
 
 }
-.footer{
+
+.footer {
     height: 300px;
     display: flex;
     flex-direction: column;
 }
 
-.social-links{
+.social-links {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -182,32 +202,45 @@ body{
     padding-top: 1em;
 }
 
-.insta-link{
+.insta-link {
     width: 38.4px;
     height: 38.4px;
     padding: .7em;
 }
 
-.fb-link{
+.fb-link {
     width: 38.4px;
     height: 38.4px;
     padding: .7em;
 }
 
-.yt-link{
+.yt-link {
     width: 38.4px;
     height: 38.4px;
     padding: .7em;
 }
 
-.x-link{
+.x-link {
     width: 38.4px;
     height: 38.4px;
     padding: .7em;
 }
 
-.tiktok-link{
+.tiktok-link {
     width: 38.4px;
     height: 38.4px;
     padding: .7em;
+}
+
+.contact-email {
+    color: #c4c4c4;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    margin: 0 0 0.5em 0;
+}
+
+.contact-email:hover {
+    color: #e3e3e3;
+    text-decoration: underline;
+    /* Optional: underline on hover */
 }
