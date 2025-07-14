@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    background: #953fee;
+    background: #00b1ff;
+    font-family: 'Netflix Sans', sans-serif;
+    color: white;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    z-index: 3;
+    align-items: center;
+    justify-content: space-between;
+    transition: .6s ease-in-out;
+
+}
+.nav.active{
+    background: #000;
+    transition: .6s ease-in-out;
+    height: 80px;
+
+}
+.nav .logo{
+    margin-left: 50px;
+
+}
+.nav .logo img{
+    width: 150px;
+
+}
+.btn-signin{
+    margin-right: 50px;
+
+}
+.btn-signin a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #381552;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 3px;
+
+}
+.welcome-bg{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 155vh; */
+    height: 100%;
+    /* background: url(BTT_L02.png) no-repeat 50% 50%; */
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+}
+.welcome-bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; */
+
+}
+.content-welcome{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 55vh; */
+    flex-direction:column ;
+    width: 100%;
+    /* margin-bottom: 8em; */
+    /* margin-top: 2em;
+     */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     min-height: 100vh;
+}
+.content-welcome h1{
+    /* font-size: 70px; */
+
+}
+.content-welcome h3{
+    font: 30px;
+    /* font-weight400: ; */
+    margin-top: 20px;
+}
+.p-uni{
+    margin: 20px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.getstarted{
+    text-decoration: none;
+    color: white;
+    color: #363636;
+    padding: 15px 30px;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #381552;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 0.1px #b588b570;
+
+    background-color: #d8bc49;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 0.1px #494949;
+
+    background-color: #c8c8c8;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 3.1px #131313;
+
+}
+.content-welcome2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* height: 2000px; */
+    width: 100%;
+    justify-content: space-between;
+
+}
+.section{
+    display: flex;
+    width: 100%;
+    border-top: 7px solid #222222;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+}
+.section .txt{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin: 0px 50px;
+
+}
+.section .txt h1{
+    font-size: 50px;
+    margin-bottom:20px ;
+}
+.section .txt p{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.section img{
+    margin: 0px 50px;
+
+}
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20em;
+    padding-top: 1em;
+}
+
+.insta-link{
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
+}
+
+.fb-link{
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
+}
+
+.yt-link{
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
+}
+
+.x-link{
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
+}
+
+.tiktok-link{
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
+}
